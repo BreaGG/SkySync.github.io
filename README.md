@@ -17,7 +17,7 @@ SkySync es un gestor de contenido en la nube que te permite sincronizar y gestio
 1. Clona el repositorio desde GitHub:
 
    ```bash
-   git clone https://github.com/tuusuario/SkySync.git
+   git clone https://github.com/BreaGG/SkySync.git
 
 ### Tecnologias Utilizadas
 
