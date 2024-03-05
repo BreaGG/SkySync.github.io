@@ -1,0 +1,10 @@
+@font-face {
+    font-family: Frutiger;
+    src: url(../misc/font/Frutiger.ttf);
+}
+
+body {
+    font-family: Frutiger;
+    background-image: url(/misc/img/back4.png);
+    background-size: cover;
+}
