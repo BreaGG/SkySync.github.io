@@ -26,10 +26,9 @@ SkySync es un gestor de contenido en la nube que te permite sincronizar y gestio
 3. TailwindCSS
 
 ### Autores
-
-Marco Fernandez (@maaark106)
-Tomás Paz (@Tompaz90)
-Alejandro Brea (@Breagg)
+- Marco Fernandez [@maaark106](https://github.com/Maaark106)
+- Tomás Paz [@Tompaz90](https://github.com/tompaz90)
+- Alejandro Brea [@Breagg](https://github.com/BreaGG)
 
 
 SkySync - Desarrollado con ❤️ por el equipo SkySync
