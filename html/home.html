@@ -17,12 +17,12 @@
         <h1 class="font-light text-4xl bg-[#FFFFFF]/[.55] p-4 py-4 w-3/12 rounded-2xl">Welcome back <span class="font-bold">Bloski</span></h1>
         <section class="flex flex-row gap-8 h-80">
             <article id="user" class="flex flex-col gap-4 w-4/12 bg-[#FFFFFF]/[.55] p-4 py-4 rounded-2xl shadow-2xl">
-                <h1 class="font-bold text-xl">Bloski - <span class="font-medium">Basic</span></h1>
+                <h1 class="font-bold text-2xl">Bloski - <span class="font-medium">Basic</span></h1>
                 <img src="../misc/img/user.png" alt="" class="rounded-full w-48">
                 <p class="text-xl">bloskisaoguisao@gmail.com</p>
             </article>
             <article id="calendar" class="flex flex-col gap-4 w-full bg-[#FFFFFF]/[.55] p-4 py-4 rounded-2xl">
-                <iframe src="https://calendar.google.com/calendar/u/0/r" class="rounded-2xl h-96" frameborder="0"></iframe>
+                <iframe src="https://calendar.google.com/calendar/embed?src=marcoselloco04%40gmail.com&ctz=Europe%2FMadrid" class="rounded-2xl h-96" frameborder="0"></iframe>
             </article>
         </section>
         <section id="MediaGallery" class="flex flex-col gap-4 w-full bg-[#FFFFFF]/[.55] p-4 py-4 rounded-2xl shadow-2xl">
@@ -57,26 +57,43 @@
             </article>
             <article id="socials" class="grid grid-cols-2 items-center place-items-center gap-4 w-4/12 bg-[#FFFFFF]/[.55] p-4 py-4 rounded-2xl shadow-2xl">
                 <div class="flex flex-col items-center">
-                    <img src="../misc/img/instagram.png" alt="">
+                    <a href="https://www.instagram.com/" target="_blank"><img src="../misc/img/instagram.png" alt=""></a>
                     <p>Instagram</p>
                 </div>
                 <div class="flex flex-col items-center">
-                    <img src="../misc/img/spotify.png" alt="">
+                    <a href="https://open.spotify.com/intl-es"target="_blank"><img src="../misc/img/spotify.png" alt=""></a>
                     <p>Spotify</p>
                 </div>
-                <div class="flex flex-col items-center">
-                    <img src="../misc/img/messenger.png" alt="">
+                </a><div class="flex flex-col items-center">
+                    <a href="https://www.facebook.com/?locale=es_ES" target="_blank"><img src="../misc/img/messenger.png" alt=""></a>
                     <p>Facebook <br> Messenger</p>
                 </div>
                 <div class="flex flex-col items-center">
-                    <img src="../misc/img/tuiter.png" alt="">
+                    <a href="https://twitter.com/home" target="_blank"><img src="../misc/img/tuiter.png" alt=""></a>
                     <p>Twitter</p>
                 </div>
             </article>
         </section>
+        <article class="flex flex-col items-center width-full"><p class="text-2xl bg-[#FFFFFF]/[.55] px-10 py-1 rounded-2xl shadow-2xl">Personalizar+</p></article>
     </main>
-    <footer class="bg-white p-4 text-center flex justify-between items-center">
-        <a href="">ABOUT US</a>
-        <a href="">CONTACT US</a>
+    <footer>
+        <section class="bg-[#FFFFFF]/[.75] p-4 text-center flex justify-between items-center">
+            <article class="text-left">
+                <h2 class="font-bold text-4xl">Actual plan: Basic</h2>
+                <button class="bg-black text-white py-2 px-6 text-2xl rounded-full">Upgrade</button>
+            </article>
+            <article class="flex flex-col items-end">
+                <h2 class="font-bold text-4xl">Left Storage:</h2>
+                <img src="../misc/img/Contenedor.png" class="w-32" alt="">
+            </article>
+            <article class="text-right">
+                <h2 class="font-bold text-4xl">Generate Backup</h2>
+                <button class="bg-black text-white py-2 px-6 text-2xl rounded-full">Generate</button>
+            </article>
+        </section>
+        <section class="bg-white p-4 text-center flex justify-between items-center">
+            <a href="">ABOUT US</a>
+            <a href="">CONTACT US</a>
+        </section>
     </footer>
 </html>
