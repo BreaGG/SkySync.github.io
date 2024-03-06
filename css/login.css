@@ -1,0 +1,26 @@
+form {
+    background-color: #D9D9D9;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.form-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form .input {
+    width: 80%;
+}
+
+.input label {
+    font-weight: 900;
+    font-size: 200%;
+}
+
+form .input input {
+    width: 100%;
+}
