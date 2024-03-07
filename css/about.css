@@ -1,7 +1,7 @@
 #astronaut {
-    animation: bobble 2s infinite;
+    animation: float 2s infinite;
 }
-@keyframes bobble {
+@keyframes float {
     0% {
     transform: translateY(10px);
     }
