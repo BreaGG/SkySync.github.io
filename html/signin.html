@@ -17,38 +17,39 @@
 
     <main class="form-section flex flex-col items-center justify-center">
         <h1 class="text-[300%] font-bold text-white">SIGN IN</h1>
-        <form class="w-full max-w-[30%] bg-[#FFFFFF]/[.55] flex flex-col py-10 px-10 rounded-[30px] mb-[5%]" >
+        <form class="w-full max-w-[30%] bg-[#FFFFFF]/[.55] flex flex-col py-10 px-10 rounded-[30px] mb-[5%]">
             <div class="input flex flex-col mt-4">
-                <label for="username" class="font-bold text-2xl">EMAIL</label>
-                <input type="email" name="username" id="username" autocomplete="username" class="bg-white h-12 px-2">
+                <label for="email" class="font-bold text-2xl">EMAIL</label>
+                <input type="email" name="email" id="email" class="bg-white h-12 px-2">
             </div>
             <div class="input flex flex-col mt-4">
                 <label for="username" class="font-bold text-2xl">USERNAME</label>
-                <input type="text" name="username" id="username" autocomplete="username" class="bg-white h-12 px-2">
+                <input type="text" name="username" id="username" class="bg-white h-12 px-2">
             </div>
             <div class="input flex flex-col mt-5">
-                <label for="username" class="font-bold text-[2rem]">PASSWORD</label>
-                <input type="password" name="username" id="username" autocomplete="username" class="bg-white h-12 px-2">
+                <label for="password" class="font-bold text-[2rem]">PASSWORD</label>
+                <input type="password" name="password" id="password" class="bg-white h-12 px-2">
             </div>
             <div class="input flex flex-col mt-5">
-                <label for="username" class="font-bold text-2xl">REPEAT PASSWORD</label>
-                <input type="password" name="username" id="username" autocomplete="username" class="bg-white h-12 px-2">
+                <label for="confirm_password" class="font-bold text-2xl">REPEAT PASSWORD</label>
+                <input type="password" name="confirm_password" id="confirm_password" class="bg-white h-12 px-2">
             </div>
             <div class="input flex items-center ml-2 mt-6">
-                <input type="checkbox" name="username" id="username" autocomplete="username" class="bg-white h-12 px-2">
-                <p class="ml-2">Remember me</p>
+                <input type="checkbox" name="remember_me" id="remember_me" class="bg-white h-12 px-2">
+                <label for="remember_me" class="ml-2">Remember me</label>
             </div>
-            <button class="bg-[#000000] mt-5 text-white text-xl w-100 hover:bg-white hover:text-gray-500 transition-colors duration-300 ease-in-out font-bold py-2 px-4 rounded-full">
-                <a href="home.html">SIGN IN</a>
-            </button> 
-            <p class="mt-6 text-center" >Do you have already an account? <a href="" class="underline">Click here</a></p>
+            <a href="home.html" class="bg-[#000000] mt-5 text-white text-xl hover:bg-white hover:text-gray-500 transition-colors duration-300 ease-in-out font-bold py-2 px-4 rounded-full text-center" role="button" aria-label="Sign In">
+                SIGN IN
+            </a>
+            <p class="mt-6 text-center">Already have an account? <a href="./login.html" class="underline">Click here</a></p>
         </form>
     </main>
 
-
     <footer class="bg-gray-200 p-4 text-center bottom-0 left-0 w-full flex justify-between items-center">
-        <a href="">ABOUT US</a>
-        <a href="">CONTACT US</a>
+        <a href="#">ABOUT US</a>
+        <a href="#">CONTACT US</a>
     </footer>
+
+</body>
 
 </html>

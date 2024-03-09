@@ -12,44 +12,49 @@
 
 <body class="bg-gray-100">
     <header class="flex flex-row items-center gap-2 bg-white p-4">
-        <img src="../misc/img/image 6.png" class="w-10" alt="Logo SkySync">
+        <img src="../misc/img/image6.png" class="w-10" alt="Logo SkySync">
         <h1 class="text-2xl ">SkySync</h1>
     </header>
-    <main class="flex flex-col items-left gap-8 p-8 h-screen my-4 mx-20">
+    <main class="flex flex-col items-left gap-8 p-8 h-screen my-4 mx-20 mb-[15%]">
         <h1 class="text-[300%] font-bold text-white">SIGN IN</h1>
-        <section class="w-[90%] bg-[#FFFFFF]/[.55] py-10 px-10 rounded-[30px] mb-[5%]" >
+        <section class="w-[90%] bg-[#FFFFFF]/[.55] py-10 px-10 rounded-[30px]  flex flex-col" aria-label="Sign In Section">
             <h1 class="text-2xl">Hello, <span class="font-bold">Bloski</span></h1>
             <div class="flex flex-row justify-center gap-[16%]">
                 <div class="col w-[30%]">
-                    <img src="../misc/img/theodore.jpeg" class="rounded-full h-64 w-64 mb-4" alt="">
+                    <div class="photo flex flex-col justify-center items-center">
+                        <img src="../misc/img/theodore.jpeg" class="rounded-full h-64 w-64 mb-4" alt="" aria-label="User Photo">
+                        <button class="bg-[#000000]  mt-[-25%] mb-[15%] z-1 text-white text-l w-[50%] text-center hover:bg-[#808080] hover:text-black transition-colors duration-300 ease-in-out font-bold py-2 px-4 rounded-full" aria-label="Edit Photo Button">
+                            EDIT PHOTO
+                        </button> 
+                    </div>
                     <div class="plan flex justify-center items-center bg-white pb-4 rounded-[5px]">
                         <div class="plan-data flex flex-col w-[35%] font-bold text-2xl pt-4">
                             <p>Basic plan</p>
                             <p>15gb</p>
                         </div>
-                        <button class="bg-[#000000] mt-5 text-white text-xl w-100 hover:bg-[#808080] hover:text-black transition-colors duration-300 ease-in-out font-bold py-2 px-4 rounded-full">
+                        <button class="bg-[#000000] mt-5 text-white text-xl w-100 hover:bg-[#808080] hover:text-black transition-colors duration-300 ease-in-out font-bold py-2 px-4 rounded-full" aria-label="Upgrade Plan Button">
                             UPGRADE
                         </button> 
                     </div>
                 </div>
                 <div class="col w-[30%] ">
                     <div class="input flex flex-col mt-5">
-                        <input type="text" name="username" id="username" autocomplete="username" class="bg-white h-12 px-2 rounded-[5px]" placeholder="Bloski">
+                        <input type="text" name="username" id="username" class="bg-white h-12 px-2 rounded-[5px]" placeholder="Bloski" aria-label="Username Input">
                     </div>
                     <div class="input flex flex-col mt-5">
-                        <input type="password" name="password" id="password" autocomplete="password" class="bg-white h-12 px-2 rounded-[5px]" placeholder="******">
+                        <input type="password" name="password" id="password" class="bg-white h-12 px-2 rounded-[5px]" placeholder="******" aria-label="Password Input">
                     </div>
-                    <button class="bg-[#000000] mt-5 text-white text-xl w-100 hover:bg-white hover:text-gray-500 transition-colors duration-300 ease-in-out font-bold py-2 px-4 rounded-full w-full">
+                    <button class="bg-[#000000] mt-5 text-white text-xl w-100 hover:bg-white hover:text-gray-500 transition-colors duration-300 ease-in-out font-bold py-2 px-4 rounded-full w-full" aria-label="Edit Button">
                         EDIT
                     </button> 
                     <div class="plan mt-[20%]">
                         <h1 class="text-center font-bold text-2xl">Basic - 15GB</h1>
-                        <img src="../misc/img/barra-cargar.png" class="" alt="">
+                        <img src="../misc/img/barra-cargar.png" class="" alt="" aria-label="Loading Bar">
                     </div>
                 </div>
             </div>
-        </section>
-        <article class="flex flex-col items-center width-full"><a href="home.html" class="text-2xl bg-[#FFFFFF]/[.55] px-10 py-1 rounded-2xl shadow-2xl my-5">Go Back</a></article>
+        </section>  
+        <a href="home.html" class="text-2xl bg-[#FFFFFF]/[.55] px-10 py-1 rounded-2xl shadow-2xl my-5 text-center w-[20%]" aria-label="Go Back Button">Go Back</a>
     </main>
 
 

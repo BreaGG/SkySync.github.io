@@ -17,30 +17,30 @@
 
     <main class="form-section flex flex-col items-center justify-center">
         <h1 class="text-[300%] font-bold text-white">LOGIN</h1>
-        <form class="w-full max-w-[30%] bg-[#FFFFFF]/[.55] flex flex-col py-10 px-10 rounded-[30px]" >
+        <form class="w-full max-w-[30%] bg-[#FFFFFF]/[.55] flex flex-col py-10 px-10 rounded-[30px]">
             <div class="input flex flex-col mt-4">
                 <label for="username" class="font-bold text-2xl">EMAIL OR USERNAME</label>
                 <input type="text" name="username" id="username" autocomplete="username" class="bg-white h-12 px-2">
             </div>
             <div class="input flex flex-col mt-5">
-                <label for="username" class="font-bold text-2xl">PASSWORD</label>
-                <input type="password" name="username" id="username" autocomplete="username" class="bg-white h-12 px-2">
+                <label for="password" class="font-bold text-2xl">PASSWORD</label>
+                <input type="password" name="password" id="password" autocomplete="current-password" class="bg-white h-12 px-2">
             </div>
             <div class="input flex items-center ml-2 mt-6">
-                <input type="checkbox" name="username" id="username" autocomplete="username" class="bg-white h-12 px-2">
-                <p class="ml-2">Remember me</p>
+                <input type="checkbox" name="remember-me" id="remember-me" class="bg-white h-12 px-2">
+                <label for="remember-me" class="ml-2">Remember me</label>
             </div>
-            <button class="bg-[#000000] mt-5 text-white text-xl w-100 hover:bg-white hover:text-gray-500 transition-colors duration-300 ease-in-out font-bold py-2 px-4 rounded-full">
-                <a href="home.html">LOG IN</a>
-            </button> 
-            <p class="mt-6 text-center" >Don´t have an account yet? <a href="" class="underline">Create one now</a></p>
+            <a class="bg-[#000000] mt-5 text-white text-xl w-100 hover:bg-white hover:text-gray-500 transition-colors duration-300 ease-in-out font-bold py-2 px-4 rounded-full text-center" href="./home.html" aria-label="Log in">
+                LOG IN
+            </a>
+            <p class="mt-6 text-center">Don't have an account yet? <a href="./signin.html" class="underline">Create one now</a></p>
         </form>
     </main>
 
 
     <footer class="bg-gray-200 p-4 text-center fixed bottom-0 left-0 w-full flex justify-between items-center">
-        <a href="">ABOUT US</a>
-        <a href="">CONTACT US</a>
+        <a href="./about.html" aria-label="About Us">ABOUT US</a>
+        <a href="./contact.html" aria-label="Contact Us">CONTACT US</a>
     </footer>
 
 </html>
